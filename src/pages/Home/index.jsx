@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   return (
@@ -14,10 +16,54 @@ const Home = () => {
         </div>
       </div>
 
-
-
-
-
+      <div className="flex items-center justify-center h-screen">
+        <div className="bg-white rounded-xl shadow-custom m-20 flex flex-col-reverse sm:flex-row items-center justify-center">
+          <div className="pl-8 pr-0 pt-8 pb-8 min-w-50% max-w-50%">
+            <h2 className="text-2xl font-bold pb-2">Hello and welcome to my portfolio website!</h2>
+            <p className="text-gray-600">I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with other developers and I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant community and can't wait to see where this journey takes me!</p>
+          </div>
+          <div className="flex justify-center flex-grow">
+            <div className="flex items-center justify-center h-full">
+              <img
+                className="max-h-full w-auto rounded-r-xl object-contain min-w-200"
+                src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682627268/Subject_3_asrqj0.png"
+                alt="Your Picture"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-center h-screen">
+        <div class="grid grid-cols-3 gap-8 m-20 max-h-[50vh]">
+          <Link to='/work/flipping'>
+            <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+              <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1681999938/Screenshot_2023-04-20_at_12.52.57_c4nnq6.png" alt="Image 1" class="w-full rounded-t-lg" />
+              <div className='p-5 flex-grow'>
+                <h3 class="text-xl font-bold">Kanban AI</h3>
+                <p class="text-gray-400">New way to manage projects using AI tools.</p>
+              </div>    
+            </div>
+          </Link>
+          <Link to='/work/flipping'>
+            <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+              <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682340147/Flipping-2_xu7xja.png" alt="Image 2" class="w-full rounded-t-lg" />
+              <div className='p-5 flex-grow'>
+                <h3 class="text-xl font-bold">Flipping Flashcards</h3>
+                <p class="text-gray-400">An innovative and cutting-edge study tool.</p>
+              </div>
+            </div>
+          </Link>
+          <Link to='/work/florin'>
+            <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+              <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1681987403/Florin-1_h0ef8h.png" alt="Image 3" class="w-full rounded-t-lg" />
+              <div className='p-5 flex-grow'>
+                <h3 class="text-xl font-bold">Florin Events</h3>
+                <p class="text-gray-400">Event creation app made for our community.</p>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </div>
 
 
 

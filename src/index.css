@@ -8,6 +8,39 @@ h1 {
     font-size: 3em;
 }
 
-body {
+h2, button, a, h3 {
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #EDF2F4;
+    font-size: larger;
+}
+
+@media (max-width: 950px) {
+  .grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+    body {
+      font-size: 0.9em;
+    }
+
+  }
+  
+  @media (max-width: 576px) {
+    .text-resize {
+      font-size: 1em;
+    }
+  }
+  
+  .shadow-custom {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .hover\:shadow-red:hover {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  }

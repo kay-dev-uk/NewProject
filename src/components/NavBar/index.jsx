@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -12,63 +13,31 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-white shadow">
+    <nav className="bg-white shadow fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-12">
           <div className="flex-shrink-0 flex items-center">
-            <img
-              className="h-8 w-auto"
-              src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1684964234/LogotWR_oazmgg.png"
-              alt="Logo"
-            />
+            <h2>KYRYLO RYBALKO</h2>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center relative">
-            <a
-              href="#"
-              className="px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-700"
-            >
+            <Link to='/' className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800">
               Home
-            </a>
-            <div
-              className="relative"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <button
-                type="button"
-                className="px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-700 focus:outline-none"
-              >
-                Work
+            </Link>
+            <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+              <button type="button" className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800 focus:outline-none">
+                <Link to='/work'>Work</Link>
               </button>
               {isDropdownOpen && (
                 <div className="absolute mt-0 py-1 w-40 bg-white rounded-lg shadow-lg">
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Kanban AI
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Flipping Flashcards
-                  </a>
-                  <a
-                    href="#"
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                  >
-                    Florin Events
-                  </a>
+                  <Link className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/kanban'>Kanban AI</Link>
+                  <Link className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/flipping'>Flipping Flashcards</Link>
+                  <Link className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/florin'>Florin Events</Link>
                 </div>
               )}
             </div>
-            <a
-              href="#"
-              className="px-3 py-2 text-sm font-medium text-gray-500 hover:text-gray-700"
-            >
+            <Link to='/about' className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800">
               About
-            </a>
+            </Link>
           </div>
         </div>
       </div>
