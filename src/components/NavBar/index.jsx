@@ -41,7 +41,7 @@ const NavBar = () => {
                 Work
               </button>
               {isDropdownOpen && (
-                <div className="absolute mt-1 py-1 w-40 bg-white rounded-lg shadow-lg">
+                <div className="absolute mt-0 py-1 w-40 bg-white rounded-lg shadow-lg">
                   <a
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
