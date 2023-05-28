@@ -5,18 +5,18 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center h-screen">
+      <div id='top' className="flex flex-col items-center justify-center h-screen">
         <h1 className="text-center mt-[-15vh]">
           Welcome to my digital playground!
         </h1>
         <div className="mt-8 -mt-[-5vh]">
-          <button className="bg-black hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg shadow">
+          <button className="bg-gray-800 hover:bg-white hover:text-gray-800 text-white border-2 border-gray-800 font-semibold py-2 px-4 rounded-lg shadow">
             Get to know me
           </button>
         </div>
       </div>
 
-      <div className="flex items-center justify-center h-screen">
+      <div id='mid' className="flex items-center justify-center h-screen">
         <div className="bg-white rounded-xl shadow-custom m-20 flex flex-col-reverse sm:flex-row items-center justify-center">
           <div className="pl-8 pr-0 pt-8 pb-8 min-w-50% max-w-50%">
             <h2 className="text-2xl font-bold pb-2">Hello and welcome to my portfolio website!</h2>
@@ -33,13 +33,13 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div class="flex items-center justify-center h-screen">
+      <div id='bot' class="flex items-center justify-center h-screen">
         <div class="grid grid-cols-3 gap-8 m-20 max-h-[50vh]">
           <Link to='/work/flipping'>
             <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1681999938/Screenshot_2023-04-20_at_12.52.57_c4nnq6.png" alt="Image 1" class="w-full rounded-t-lg" />
-              <div className='p-5 flex-grow'>
-                <h3 class="text-xl font-bold">Kanban AI</h3>
+              <div className='p-5 flex-grow text'>
+                <h3 class="text-xl font-bold pb-2">Kanban AI</h3>
                 <p class="text-gray-400">New way to manage projects using AI tools.</p>
               </div>    
             </div>
@@ -47,8 +47,8 @@ const Home = () => {
           <Link to='/work/flipping'>
             <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682340147/Flipping-2_xu7xja.png" alt="Image 2" class="w-full rounded-t-lg" />
-              <div className='p-5 flex-grow'>
-                <h3 class="text-xl font-bold">Flipping Flashcards</h3>
+              <div className='p-5 flex-grow text'>
+                <h3 class="text-xl font-bold pb-2">Flipping Flashcards</h3>
                 <p class="text-gray-400">An innovative and cutting-edge study tool.</p>
               </div>
             </div>
@@ -56,8 +56,8 @@ const Home = () => {
           <Link to='/work/florin'>
             <div class="relative bg-white rounded-xl shadow-lg p-0 overflow-hidden transform transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1681987403/Florin-1_h0ef8h.png" alt="Image 3" class="w-full rounded-t-lg" />
-              <div className='p-5 flex-grow'>
-                <h3 class="text-xl font-bold">Florin Events</h3>
+              <div className='p-5 flex-grow text'>
+                <h3 class="text-xl font-bold pb-2">Florin Events</h3>
                 <p class="text-gray-400">Event creation app made for our community.</p>
               </div>
             </div>
