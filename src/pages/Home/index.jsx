@@ -18,7 +18,7 @@ const Home = () => {
 
       <div id='mid' className="flex items-center justify-center h-screen">
         <div className="bg-white rounded-xl shadow-custom m-20 flex flex-col-reverse sm:flex-row items-center justify-center">
-          <div className="pl-8 pr-0 pt-8 pb-8 min-w-50% max-w-50%">
+          <div className="pl-8 pr-8 pt-8 pb-8 min-w-50% max-w-50%">
             <h2 className="text-2xl font-bold pb-2">Hello and welcome to my portfolio website!</h2>
             <p className="text-gray-600">I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with other developers and I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant community and can't wait to see where this journey takes me!</p>
           </div>

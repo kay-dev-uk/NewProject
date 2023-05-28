@@ -23,11 +23,6 @@ body {
   font-size: larger;
 }
 
-#top, #mid, #bot {
-  scroll-snap-align: start;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-}
 
 @media (max-width: 950px) {
   .grid-cols-3 {
