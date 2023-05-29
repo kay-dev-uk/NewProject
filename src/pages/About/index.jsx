@@ -24,7 +24,7 @@ const About = () => {
         <div className="bg-white rounded-xl shadow-custom m-20 p-5">
           <div className="aspect-w-16 aspect-h-9 p-5">
             <iframe
-              className="w-full h-full"
+              className="w-full h-full "
               src="https://www.youtube.com/embed/z0hCl9MUL0Y"
               title="YouTube Video"
               frameborder="0"

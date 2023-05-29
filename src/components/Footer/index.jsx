@@ -19,7 +19,7 @@ const Footer = () => {
               <FaGithub  className="h-6 w-6 fill-current"/>
             </a>
             <a
-              href="https://github.com/kay-dev-uk"
+              href="https://www.linkedin.com/in/kyrylo-rybalko-03a62b178/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-300"
