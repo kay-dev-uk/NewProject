@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div>
             <img
-              className="w-40 h-40 object-cover"
+              className="w-40 h-40 object-cover rounded"
               src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682627268/Subject_3_asrqj0.png"
               alt="Your Picture"
             />
