@@ -63,11 +63,8 @@ const About = () => {
           <p>During my time as TL I did that. During my time as TL I did that.During my time as TL I did that.</p>
         </div>
       </div>
-
     </div>
   </div>
-
-
     </>
   )
 }
