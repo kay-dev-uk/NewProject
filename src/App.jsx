@@ -8,7 +8,8 @@ import Footer from './components/Footer';
 const App = () => {
   return (
     <>
-      <NavBar />
+      <NavBar /> 
+      <div style={{ paddingTop: '7vh', paddingBottom: '7vh' }}> 
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/about' element={<About />} />
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/work/kanban' element={<Kanban />} />
           <Route path='/work/florin' element={<Florin />} /> 
       </Routes>
+      </div>
       <Footer />
     </>
   )
