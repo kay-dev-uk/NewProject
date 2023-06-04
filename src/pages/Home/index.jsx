@@ -67,6 +67,9 @@ const Home = () => {
         <div className="flex items-center justify-center h-20">
           EMPTY
         </div>
+        <div className="flex items-center justify-center h-20">
+          EMPTY
+        </div>
 
 
 
