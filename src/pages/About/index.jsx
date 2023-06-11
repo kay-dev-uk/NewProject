@@ -36,7 +36,7 @@ const About = () => {
         </div>
       </div> */}
         <div className="flex items-center justify-center">
-          <div className="bg-white rounded-xl shadow-custom m-20 p-5">
+          <div className="bg-white rounded-xl shadow-custom m-10 sm:m-20 p-5">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
               <div className='order-2 md:order-2'>
                 <h1>About Me</h1>
