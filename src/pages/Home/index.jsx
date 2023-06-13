@@ -17,7 +17,7 @@ const Home = () => {
           Welcome to my digital playground!
         </h1>
         <div className="mt-8 -mt-[-5vh]">
-          <button className="bg-gray-800 hover:bg-white hover:text-gray-800 text-white border-2 border-gray-800 font-semibold py-2 px-4 rounded-lg shadow" onClick={() => scrollToSection('mid')}>
+          <button className="bg-gray-800 hover:bg-white animate-bounce hover:text-gray-800 text-white border-2 border-gray-800 font-semibold py-2 px-4 rounded-lg shadow" onClick={() => scrollToSection('mid')}>
             Get to know me
           </button>
         </div>
@@ -30,7 +30,7 @@ const Home = () => {
             <p className="text-gray-600">I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with other developers and I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant community and can't wait to see where this journey takes me!</p>
             <br></br>
             <Link to='/about' onClick={handleScrollToTop}>
-              <button className="bg-gray-800 hover:bg-white hover:text-gray-800  text-white border-2  border-gray-800 font-semibold py-2 px-4 rounded-lg shadow">
+              <button className="bg-gray-800 hover:bg-white hover:text-gray-800  text-white border-2  border-gray-800 font-semibold py-2 px-4 rounded-lg shadow animate-bounce">
               Learn more
               </button> 
             </Link>

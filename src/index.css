@@ -57,10 +57,63 @@ body {
   
 #gradient-2 {
   background-color: #3EECAC;
-  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+  background-image: linear-gradient(-45deg, #3EECAC 0%, #EE74E1 100%);
 }
 
 #gradient-3 {
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  background-color: #FBDA61;
+background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+
+}
+
+.bg-custom {
+  background-color: #EDF2F4;
+}
+
+
+@keyframes pulse {
+  0% {
+    color: #e0aaff;
+  }
+  12% {
+    color: #c77dff;
+  }
+  25% {
+    color: #9d4edd;
+  }
+  38% {
+    color: #7b2cbf;
+  }
+  50% {
+    color: #03071e;
+  }
+  62% {
+    color: #7b2cbf;
+  }
+  75% {
+    color: #9d4edd;
+  }
+  88% {
+    color: #c77dff;
+  }
+  100% {
+    color: #e0aaff;
+  }
+}
+
+@keyframes color-change-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #EDF2F4, #FCD34D);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: color-change-animation 5s linear infinite;
 }
