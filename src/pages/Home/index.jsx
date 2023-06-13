@@ -49,7 +49,7 @@ const Home = () => {
       <div id='bot' class="flex items-center justify-center h-auto">
       <div class="grid grid-cols-3 gap-10 mb-10 sm:m-20 m-10">
         <Link to='/work/kanban'>
-          <div class="bg-white flex-grow rounded-xl shadow-lg p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+          <div class="bg-white flex-grow rounded-xl shadow-custom p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
             <div class="aspect-w-1 aspect-h-1">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/c_scale,h_892,w_1498/v1681999938/Screenshot_2023-04-20_at_12.52.57_c4nnq6.png" alt="Image 1" class="object-contain rounded-t-lg h-full w-full" />
             </div>
@@ -60,7 +60,7 @@ const Home = () => {
           </div>
         </Link>
         <Link to='/work/flipping'>
-          <div class="bg-white flex-grow rounded-xl shadow-lg p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+          <div class="bg-white flex-grow rounded-xl shadow-custom p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
             <div class="aspect-w-1 aspect-h-1">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/c_scale,h_892,w_1498/v1682340147/Flipping-2_xu7xja.png" alt="Image 2" class="object-contain rounded-t-lg h-full w-full" />
             </div>
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </Link>
         <Link to='/work/florin'>
-          <div class="bg-white flex-grow rounded-xl shadow-lg p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
+          <div class="bg-white flex-grow rounded-xl shadow-custom p-0 transition-all hover:scale-105 hover:shadow-red hover:cursor-pointer hover:bg-gray-800 hover:text-white">
             <div class="aspect-w-1 aspect-h-1">
               <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/c_scale,h_892,w_1498/v1681987403/Florin-1_h0ef8h.png" alt="Image 3" class="object-contain rounded-t-lg h-full w-full" />
             </div>

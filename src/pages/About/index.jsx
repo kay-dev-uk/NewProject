@@ -55,27 +55,27 @@ const About = () => {
               </div> */}
             </div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-5 ">
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
-              <h2 className='gradient-text'>Enthusiastic</h2>
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
+              <h2 className=''>Enthusiastic</h2>
               <p className=''>Career change just made me even thirstier for knowledge and new experinces. I got fire in my eyes, my heart and my fingers.</p>
             </div>
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
-              <h2 className='animate-pulse'>Passionate</h2>
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
+              <h2 className=''>Passionate</h2>
               <p className=''>I appreciate and follow technology in general. Programming makes a half of my life since the last year.</p>
             </div>
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
               <h2>Critical Thinker</h2>
               <p>I observe the problem from all the angles, when needed exclude/include emotions and experience, always rely on facts.</p>
             </div>
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
               <h2 className='animate-gradient'>Dependable</h2>
               <p>You can always rely on me and my skilss, I don't let people down! Ask my previous managers.</p>
             </div>
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
               <h2>Honest</h2>
               <p>My philosophie includes an array of rules and honesty with the world is on the top!</p>
             </div>
-            <div className="flex-1 bg-custom rounded-lg p-4 mx-1">
+            <div className="flex-1 bg-custom shadow-custom rounded-lg p-4 mx-1">
               <h2>Can do attitude</h2>
               <p>I always do the right thing and I'm happy to work on any task.</p>
             </div>
