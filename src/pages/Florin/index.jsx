@@ -56,7 +56,7 @@ const Florin = () => {
         </div>
       </div>
       <div className="flex items-center justify-center h-auto">
-      <div className="bg-blue-100 rounded-xl shadow-custom sm:ml-20 sm:mr-20 mt-10 mb-10 ml-10 mr-10 items-center justify-center flex w-3/5">
+      <div className="bg-blue-100 rounded-xl shadow-custom sm:ml-20 sm:mr-20 mt-10 mb-10 ml-10 mr-10 items-center justify-center flex w-4/5 sm:w-3/5">
         <div className="pl-8 pr-8 pt-8 pb-8">
           <h2 className="text-2xl font-bold pb-2 flex items-center justify-center">Florin Events App</h2>
           <p className="text-gray-600 md:font-sm">

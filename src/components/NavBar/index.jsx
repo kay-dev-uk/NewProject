@@ -34,9 +34,11 @@ const NavBar = () => {
               Home
             </Link>
             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+              <Link to='/work' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
               <button type="button" className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
                 Work
               </button>
+              </Link>
               {isDropdownOpen && (
                 <div className="absolute mt-0 py-1 w-40 bg-white rounded-lg shadow-lg">
                   <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/kanban'>Kanban AI</Link>
