@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <NavBar /> 
-      <div style={{ paddingTop: '7vh', paddingBottom: '7vh' }}> 
+      <div style={{ paddingTop: '5.5vh', paddingBottom: '7vh' }}> 
       <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/about' element={<About />} />

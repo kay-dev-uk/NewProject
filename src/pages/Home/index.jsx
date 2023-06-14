@@ -22,28 +22,28 @@ const Home = () => {
           </button>
         </div>
       </div>
-<div className="flex flex-col sm:flex-row justify-between">
-  <div className="bg-blue-100 rounded-xl shadow-custom lg:mr-5 sm:order-first order-last sm:ml-20 mb-5 ml-10 mr-10 flex flex-col items-center justify-center md:w-3/5">
-    <div className="pl-8 pr-8 pt-8 pb-8">
-      <h2 className="text-2xl font-bold pb-2">Hello and welcome to my portfolio website!</h2>
-      <p className="text-gray-600 md:font-sm">I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with other developers. I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant community and can't wait to see where this journey takes me!</p>
-      <br />
-      <Link to='/about' onClick={handleScrollToTop}>
-        <button className="bg-blue-500 hover:bg-white hover:text-blue-500 text-white border-2 border-gray-300 font-semibold py-2 px-4 rounded-lg shadow animate-bounce">
-          Learn more
-        </button>
-      </Link>
-    </div>
-  </div>
-  <div className="rounded-xl lg:ml-5 shadow-custom sm:mr-20 mr-10 mb-5 ml-10 justify-center items-center md:w-2/5">
-    <div>
-      <img
-        className="rounded-xl w-auto h-3/5 order-first sm:order-last"
-        src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682627268/Subject_3_asrqj0.png"
-        alt="Your Picture"
-      />
-    </div>
-  </div>
+      <div id='mid' className="flex flex-col sm:flex-row justify-between">
+        <div className="bg-blue-100 rounded-xl shadow-custom lg:mr-5 sm:order-first order-last sm:ml-20 mb-5 ml-10 mr-10 flex flex-col items-center justify-center md:w-3/5">
+          <div className="pl-8 pr-8 pt-8 pb-8">
+            <h2 className="text-2xl font-bold pb-2 flex items-center justify-center">Hello and welcome to my portfolio website!</h2>
+            <p className="text-gray-600 md:font-sm flex items-center justify-center">I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with other developers. I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant community and can't wait to see where this journey takes me!</p>
+            <br />
+            <Link to='/about' className='flex items-center justify-center' onClick={handleScrollToTop}>
+              <button className="bg-blue-500 hover:bg-white hover:text-blue-500 text-white border-2 border-gray-300 font-semibold py-2 px-4 rounded-lg shadow animate-bounce">
+                Learn more
+              </button>
+            </Link>
+          </div>
+        </div>
+      <div className="rounded-xl lg:ml-5 shadow-custom sm:mr-20 mr-10 mb-5 ml-10 justify-center items-center md:w-2/5">
+        <div>
+          <img
+            className="rounded-xl w-auto h-3/5 order-first sm:order-last"
+            src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682627268/Subject_3_asrqj0.png"
+            alt="Your Picture"
+          />
+        </div>
+      </div>
 </div>
 
 
