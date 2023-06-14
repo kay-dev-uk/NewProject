@@ -3,9 +3,9 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-gray-400 text-sm fixed bottom-0 w-full mt-auto">
+    <footer className="bg-blue-400 text-gray-400 text-sm fixed bottom-0 w-full mt-auto">
       <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center text-white">
           <div>
             &copy; 2023 Kyrylo Rybalko.
           </div>

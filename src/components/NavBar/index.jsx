@@ -30,22 +30,22 @@ const NavBar = () => {
             <p className="text-sm text-gray-600">Junior Developer</p>
           </div>
           <div className="hidden sm:ml-6 sm:flex sm:items-center relative">
-            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800">
+            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
               Home
             </Link>
             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-              <button type="button" className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
+              <button type="button" className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
                 Work
               </button>
               {isDropdownOpen && (
                 <div className="absolute mt-0 py-1 w-40 bg-white rounded-lg shadow-lg">
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/kanban'>Kanban AI</Link>
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/flipping'>Flipping Flashcards</Link>
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-gray-400 hover:bg-gray-800 hover:text-white" to='/work/florin'>Florin Events</Link>
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/kanban'>Kanban AI</Link>
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/flipping'>Flipping Flashcards</Link>
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/florin'>Florin Events</Link>
                 </div>
               )}
             </div>
-            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-gray-400 hover:text-gray-800">
+            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
               About
             </Link>
           </div>
