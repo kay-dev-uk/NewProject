@@ -33,34 +33,32 @@ const Flipping = () => {
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452099/css-3_fi9cle.svg'></img>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center mt-10">
-        <img
-          onClick={showNextImage}
-          className="rounded-xl w-3/5 shadow-custom"
-          src={images[currentImageIndex]}
-          alt={`Picture ${currentImageIndex + 1}`}
-        />
-        <div className="flex justify-center mt-4">
-          <button
-            className="bg-blue-500 hover:bg-white hover:text-blue-500 text-white border-2 border-gray-300 font-semibold py-2 px-4 rounded-lg shadow mr-2 btn-size"
-            onClick={showPreviousImage}
-          >
-            Previous
-          </button>
-          <button
-            className="bg-blue-500 hover:bg-white hover:text-blue-500 text-white border-2 border-gray-300 font-semibold py-2 px-4 rounded-lg shadow btn-size"
-            onClick={showNextImage}
-          >
-            Next
-          </button>
-        </div>
-
-      </div>
-
       <div className="flex items-center justify-center h-auto">
-  <div className="bg-blue-100 rounded-xl shadow-custom sm:ml-20 sm:mr-20 mt-10 mb-10 ml-10 mr-10 items-center justify-center flex w-4/5 sm:w-3/5">
-    <div className="pl-8 pr-8 pt-8 pb-8">
-      <h2 className="text-5xl font-bold pb-2 flex items-center justify-left">Learn fast with Flipping Flashcards</h2>
+        <div className="rounded-t-xl shadow-custom sm:ml-20 sm:mr-20 mt-10 mb-10 ml-10 mr-10 items-center justify-center flex w-4/5 sm:w-3/5">
+          <div className="">
+            <div className="flex flex-col items-center justify-center">
+              <img
+              onClick={showNextImage}
+              className="rounded-xl w-5/5 shadow-custom"
+              src={images[currentImageIndex]}
+              alt={`Picture ${currentImageIndex + 1}`}
+              />
+              <div className="flex justify-center mt-4">
+                <button className="icon-back hover:bg-white hover:animate-pulse hover:text-blue-500 text-cyan-700 border-blue-500 shadow-custom font-semibold py-2 mr-4 px-4 rounded-lg shadow btn-size"
+                    onClick={showPreviousImage}
+                  >
+                    Previous
+                </button>
+                <button
+                    className="icon-back hover:bg-white hover:animate-pulse hover:text-blue-500 text-cyan-700 border-blue-500 shadow-custom font-semibold py-2 mr-4 px-4 rounded-lg shadow btn-size"
+                    onClick={showNextImage}
+                  >
+                    Next
+                </button>
+              </div>
+            </div>
+      <div className="pl-8 pr-8 pt-8 pb-8">
+      <h2 className="text-5xl font-bold pb-2 text-cyan-500 flex items-center justify-left">Learn fast with Flipping Flashcards</h2>
       <p className="text-gray-600 md:font-sm">
       Introducing Flipping Flashcards: The Ultimate Web App for Effortless Material Revision!</p> 
       <p className="text-gray-600 md:font-sm">Flipping Flashcards revolutionizes studying with its dynamic flip action and engaging interface. Covering a wide range of subjects, including History, Geography, Maths, Language, and Art, it caters to all your revision needs.
@@ -92,6 +90,9 @@ const Flipping = () => {
           </button>
         </a>
       </div>
+
+      </div>
+      
     </div>
   </div>
 </div>
