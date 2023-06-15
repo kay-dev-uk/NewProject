@@ -12,6 +12,13 @@ h2, button, a, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+.icon-back {
+  background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/c_scale,w_500/v1686828561/magicpattern-oPH_5xuMgQw-unsplash_xqmqry.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
 .back-custom {
   background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686828680/luke-chesser-pJadQetzTkI-unsplash_j0ewtj.jpg');
     background-size: cover;

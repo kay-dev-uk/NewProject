@@ -31,29 +31,29 @@ const NavBar = () => {
             <div className="flex-shrink-0 flex items-center">
               <h2 className='mr-1 animate-pulse'>KYRYLO RYBALKO</h2>
               <br></br>
-              <p className="text-sm text-white">Junior Developer</p>
+              <p className="text-sm text-cyan-200">Junior Developer</p>
             </div> 
           </Link>
           
           <div className="hidden sm:ml-6 sm:flex sm:items-center relative">
-            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800">
+            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-cyan-200">
               Home
             </Link>
             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               <Link to='/work' onClick={handleScrollToTop}>
-              <button type="button" className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
+              <button type="button" className="px-3 py-2 text-sm font-medium text-white hover:text-cyan-200 focus:outline-none" onClick={handleWorkLinkClick}>
                 Work
               </button>
               </Link>
               {isDropdownOpen && (
-                <div className="absolute mt-0 py-1 w-40 bg-white rounded-lg shadow-lg">
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/kanban'>Kanban AI</Link>
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/flipping'>Flipping Flashcards</Link>
-                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-400 hover:bg-blue-400 hover:text-white" to='/work/florin'>Florin Events</Link>
+                <div className="absolute mt-0 py-1 w-40 bg-cyan-200 rounded-lg shadow-lg">
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-500 hover:bg-cyan-400 hover:text-white" to='/work/kanban'>Kanban AI</Link>
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-500 hover:bg-cyan-400 hover:text-white" to='/work/flipping'>Flipping Flashcards</Link>
+                  <Link onClick={handleScrollToTop} className="block px-4 py-2 text-sm text-blue-500 hover:bg-cyan-400 hover:text-white" to='/work/florin'>Florin Events</Link>
                 </div>
               )}
             </div>
-            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800">
+            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-cyan-200">
               About
             </Link>
           </div>
