@@ -12,10 +12,34 @@ h2, button, a, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
+.back-custom {
+  background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686828680/luke-chesser-pJadQetzTkI-unsplash_j0ewtj.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+} 
+
+.back-custom-small {
+  background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/c_scale,w_800/v1686839325/codioful-formerly-gradienta--4doJI-wd_s-unsplash_xpidgf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
-    background-color: #EDF2F4;
+    background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686838434/codioful-formerly-gradienta-fiOggvfFrUI-unsplash_g9qp2l.jpg');
+    /* background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686827670/adrian-infernus-GLf7bAwCdYg-unsplash_oaosv6.jpg'); */
+    /* background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686828680/luke-chesser-pJadQetzTkI-unsplash_j0ewtj.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
     font-size: larger;
+}
+
+nav {
+  background-image: url('https://res.cloudinary.com/dlxcjxezc/image/upload/v1686827670/adrian-infernus-GLf7bAwCdYg-unsplash_oaosv6.jpg');
+    background-size: cover; /* Adjust the background size property */
+    background-repeat: no-repeat;
 }
 
 .text {
@@ -45,6 +69,10 @@ body {
   
   .shadow-custom {
     box-shadow: 0 3px 20px rgba(40,91,212,0.73);
+  }
+
+  .shadow-custom-small {
+    box-shadow: 0 3px 20px rgba(164, 156, 222, 0.73);
   }
 
   .hover\:shadow-red:hover {

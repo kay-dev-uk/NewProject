@@ -4,84 +4,76 @@ const About = () => {
 
   return (
     <>
-      {/* <div className="flex items-center justify-center h-screen">
-        <div className="bg-white rounded-lg shadow-lg p-8 flex items-center justify-between">
-          <div className="mr-8">
-            <h2 className="text-2xl font-bold">Your Name</h2>
-            <p className="text-gray-600">Your Job Title</p>
-            <p className="text-gray-600">Your Company</p>
-            <p className="text-gray-600">Your Location</p>
-          </div>
-          <div>
-            <img
-              className="w-40 h-40 object-cover rounded"
-              src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682627268/Subject_3_asrqj0.png"
-              alt="Your Picture"
-            />
-          </div>
-        </div>
-      </div> */}
-      {/* <div className="flex items-center justify-center h-screen">
-        <div className="bg-white rounded-xl shadow-custom m-20 p-5">
-          <div className="aspect-w-16 aspect-h-9 p-5">
-            <iframe
-              className="w-full h-full "
-              src="https://www.youtube.com/embed/z0hCl9MUL0Y"
-              title="YouTube Video"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div> */}
         <div className="flex items-center justify-center">
-          <div className="bg-blue-100 rounded-xl shadow-custom m-10 sm:m-20 p-5">
+          <div className="back-custom-small rounded-xl shadow-custom m-10 sm:m-20 p-5">
             <div>
             <div className='mx-2'>
-              <h1>About Me</h1>
-              <p>
-                As a <span className="text-white font-bold rounded-md bg-blue-500">multilingual professional</span>, I have developed a <span className="text-white font-bold rounded-md bg-blue-500">unique skill set</span> by working across various industries such as customer service, logistics, and management. My passion for technology and dedication to delivering <span className="text-white font-bold rounded-md bg-blue-500">exceptional customer experiences</span> have been the driving forces throughout my career.
+              <h1 className='text-cyan-100'>About Me</h1>
+              <p className='text-black'>
+                With extensive experience in frontend and backend development, I excel at delivering intuitive and feature-rich software applications that cater to the unique needs of clients and users.
               </p>
-              <p>
-                Recognising the potential for growth and impact in the tech industry, I made a bold decision to pursue a career in Tech leaving my full-time job last year and enrolling in a <span className="text-white font-bold rounded-md bg-blue-500">full-time intensive programming bootcamp</span>. This investment not only demonstrates my commitment to the world of technology but also allowed me to further develop my skills and potential.
+              <p className='text-black'>
+                Having worked across the entire software development lifecycle, I possess comprehensive knowledge and expertise in every phase of the process.
               </p>
-              <p>
-                Armed with a Bachelor's degree in International Relations and newfound programming expertise, I am now well-prepared to take on the challenges of the tech industry. As a valuable asset to any organisation, I am eager to embark on my next professional adventure, using <span class="text-white font-bold rounded-md bg-blue-500">my diverse skills and experiences</span> to make a <span className="underline">meaningful difference in the fast-paced, ever-evolving world of technology</span>.
+              <p className='text-black'>
+                With proficiency in multiple languages, I possess strong communication skills that enable effective collaboration with diverse teams and stakeholders. I approach problem-solving with diligence, employing analytical thinking and a creative mindset to overcome complex challenges. By exploring innovative solutions, I strive to optimize performance and drive continuous improvement in every project I undertake. Recognized for my reliability and adaptability, I thrive in fast-paced environments where I can remain composed under pressure. I excel both independently and as part of a dynamic team, consistently meeting tight deadlines and delivering high-quality work. 
               </p>
             </div>
-              {/* <div className="md:flex md:items-center order-1 md:order-2">
-                <img src="https://res.cloudinary.com/dlxcjxezc/image/upload/v1682430307/IMG_9755_e6ss8x.jpg" alt="Main Image" className="rounded-lg mx-auto my-4 md:my-0 max-w-full" />
-              </div> */}
             </div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mt-5 ">
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2 className=''>Enthusiastic</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1 animate-flash">
+              <h2 className='text-cyan-700'>Enthusiastic</h2>
               <p className=''>Career change just made me even thirstier for knowledge and new experinces. I got fire in my eyes, my heart and my fingers.</p>
             </div>
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2 className=''>Passionate</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1">
+              <h2 className='text-cyan-700'>Passionate</h2>
               <p className=''>I appreciate and follow technology in general. Programming makes a half of my life since the last year.</p>
             </div>
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2>Critical Thinker</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1">
+              <h2 className='text-cyan-700'>Critical Thinker</h2>
               <p>I observe the problem from all the angles, when needed exclude/include emotions and experience, always rely on facts.</p>
             </div>
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2 className='animate-gradient'>Dependable</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1">
+              <h2 className='text-cyan-700'>Dependable</h2>
               <p>You can always rely on me and my skilss, I don't let people down! Ask my previous managers.</p>
             </div>
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2>Honest</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1">
+              <h2 className='text-cyan-700'>Honest</h2>
               <p>My philosophie includes an array of rules and honesty with the world is on the top!</p>
             </div>
-            <div className="flex-1 bg-blue-200 shadow-custom rounded-lg p-4 mx-1">
-              <h2>Can do attitude</h2>
+            <div className="flex-1 bg-teal-100 shadow-custom-small rounded-lg p-4 mx-1">
+              <h2 className='text-cyan-700'>Can do attitude</h2>
               <p>I always do the right thing and I'm happy to work on any task.</p>
             </div>
           </div>
         </div>
       </div>
+      <div className="flex items-center justify-center">
+          <div className="back-custom rounded-xl shadow-custom m-10 w-full sm:ml-20 sm:mr-20 sm:mb-20 p-5">
+            <h2 className='text-3xl pb-4 text-cyan-100'>Skills</h2>
+            <ol className="grid grid-cols-3 gap-4">
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center "><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452210/javascript_pp0zjv.svg' alt='JavaScript'></img>JavaScript</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452182/react_hwybaa.svg' alt='React'></img>React</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452012/nodejs-icon_yqz6fc.svg' alt='Node'></img>Node</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451852/express_kly0nt.svg' alt='Express'></img>Express</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452197/python_evu9so.svg' alt='Python'></img>Python</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452051/flask_ie5jb2.svg' alt='Flask'></img>Flask</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452032/django-icon_uk4wsp.svg' alt='Django'></img>Django</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg' alt='PostgreSQL'></img>PostgreSQL</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451907/mongodb-icon_cmsasc.svg' alt='MongoDB'></img>MongoDB</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451940/sqlite_om5rbl.svg' alt='SQLite'></img>SQLite</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452115/html-5_zhw0y5.svg' alt='HTML'></img>HTML</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452099/css-3_fi9cle.svg' alt='CSS'></img>CSS</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452084/tailwindcss-icon_vryuon.svg' alt='TailwindCSS'></img>TailwindCSS</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452067/bootstrap_vonqqf.svg' alt='Bootstrap'></img>Bootstrap</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451973/github-icon_puneos.svg' alt='GitHub'></img>GitHub</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451957/git-icon_vknstp.svg' alt='Git'></img>Git</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451991/jest_udx4sn.svg' alt='Jest'></img>Jest</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1682847452/pytest_zbwuei.png' alt='Pytest'></img>Pytest</li>
+              <li className="text-cyan-100 text-2xl mb-2 flex items-center"><img className='h-10 w-10 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451888/docker-icon_rt9pnh.svg' alt='Docker'></img>Docker</li>
+            </ol>
+          </div>
+      </div>    
     </>
   )
 }

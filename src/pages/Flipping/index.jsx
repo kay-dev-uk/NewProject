@@ -28,10 +28,9 @@ const Flipping = () => {
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452210/javascript_pp0zjv.svg' alt='JavaScript'></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452182/react_hwybaa.svg'/>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452012/nodejs-icon_yqz6fc.svg'></img>
+          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg'></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452115/html-5_zhw0y5.svg'></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452099/css-3_fi9cle.svg'></img>
-          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg'></img>
-          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451991/jest_udx4sn.svg'></img>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-10">
@@ -70,7 +69,7 @@ const Flipping = () => {
       </p>
       <br />
       <h3 className="text-3xl pb-2 flex items-center justify-left">Technologies</h3>
-      <ol className="list-none list-inside">
+      <ol className="list-none list-inside pl-5">
         <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452210/javascript_pp0zjv.svg' alt='JavaScript'></img>JavaScript</li>
         <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452182/react_hwybaa.svg' alt='JavaScript'></img>React</li>
         <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452012/nodejs-icon_yqz6fc.svg' alt='JavaScript'></img>Node</li>

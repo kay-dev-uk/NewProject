@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
@@ -20,22 +21,27 @@ const NavBar = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
+  
+
   return (
-    <nav className="bg-white shadow fixed w-full">
+    <nav className='back-custom shadow fixed w-full'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-12">
-          <div className="flex-shrink-0 flex items-center">
-            <h2 className='mr-1 animate-pulse'>KYRYLO RYBALKO</h2>
-            <br></br>
-            <p className="text-sm text-gray-600">Junior Developer</p>
-          </div>
+          <Link to='/' onClick={handleScrollToTop} className="flex-shrink-0 flex items-center">
+            <div className="flex-shrink-0 flex items-center">
+              <h2 className='mr-1 animate-pulse'>KYRYLO RYBALKO</h2>
+              <br></br>
+              <p className="text-sm text-white">Junior Developer</p>
+            </div> 
+          </Link>
+          
           <div className="hidden sm:ml-6 sm:flex sm:items-center relative">
-            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
+            <Link to='/' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800">
               Home
             </Link>
             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-              <Link to='/work' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
-              <button type="button" className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
+              <Link to='/work' onClick={handleScrollToTop}>
+              <button type="button" className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800 focus:outline-none" onClick={handleWorkLinkClick}>
                 Work
               </button>
               </Link>
@@ -47,7 +53,7 @@ const NavBar = () => {
                 </div>
               )}
             </div>
-            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-blue-400 hover:text-gray-800">
+            <Link to='/about' onClick={handleScrollToTop} className="px-3 py-2 text-sm font-medium text-white hover:text-gray-800">
               About
             </Link>
           </div>

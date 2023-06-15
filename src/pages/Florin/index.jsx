@@ -23,13 +23,13 @@ const Florin = () => {
         <h1 className="text-center text-blue-500">
           Florin Events App
         </h1>
+        <p className='flex flex-row items-center justify-center'>Events App for a local community.</p>
         <div className='flex flex-row items-left justify-center'>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452210/javascript_pp0zjv.svg' alt='JavaScript' data-tip="JavaScript Description"></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452012/nodejs-icon_yqz6fc.svg'></img>
+          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg'></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452115/html-5_zhw0y5.svg'></img>
           <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452099/css-3_fi9cle.svg'></img>
-          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452067/bootstrap_vonqqf.svg'></img>
-          <img className='w-10 m-3' src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg'></img>
           
         </div>
       </div>
@@ -60,12 +60,22 @@ const Florin = () => {
         <div className="pl-8 pr-8 pt-8 pb-8">
           <h2 className="text-2xl font-bold pb-2 flex items-center justify-center">Florin Events App</h2>
           <p className="text-gray-600 md:font-sm">
-            I'm a brand-new developer who's just starting out on this exciting journey. I'm constantly pushing myself to
-            grow and expand my knowledge, whether it's through online courses, coding challenges, or collaborating with
-            other developers. I just finished my coding bootcamp with La Fosse. I'm excited to be a part of this vibrant
-            community and can't wait to see where this journey takes me!
+            The Florin Events App is a web application that allows users to create events, view other people's events, and declare interest in attending events. Users can view events by category and search for events using the search bar. The application was created to help a struggling county council that was struggling with funding issues. The project was built using HTML, CSS, JavaScript, and SQL and consists of both a frontend and a backend.
+          </p>
+          <p className="text-black font-black">
+            Login: "joe" | Password: "1234"
           </p>
           <br />
+          <h3 className="text-3xl pb-2 flex items-center justify-left">Technologies</h3>
+          <ol className="list-none list-inside pl-5">
+            <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452210/javascript_pp0zjv.svg' alt='JavaScript'></img>JavaScript</li>
+            <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452012/nodejs-icon_yqz6fc.svg' alt='JavaScript'></img>Node</li>
+            <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683451924/postgresql_qckumv.svg' alt='JavaScript'></img>PostgreSQL</li>
+            <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452115/html-5_zhw0y5.svg' alt='JavaScript'></img>HTML</li>
+            <li className="text-blue-500 mb-2 flex items-center"><img className='h-5 w-5 mr-2' viewBox="0 0 20 20" src='https://res.cloudinary.com/dlxcjxezc/image/upload/v1683452099/css-3_fi9cle.svg' alt='JavaScript'></img>CSS</li>
+          </ol>
+          <br />
+      <h3 className="text-3xl pb-2 flex items-center justify-left">Challenges</h3>
           <div className="flex justify-center">
             <a target="_blank" href='https://florin-events.onrender.com/'>
               <button className="bg-blue-500 hover:bg-white hover:text-blue-500 text-white border-2 border-gray-300 font-semibold py-2 px-4 rounded-lg shadow btn-size">
